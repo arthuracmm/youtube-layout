@@ -1,50 +1,49 @@
-# React + TypeScript + Vite
+Este é um projeto de estudo onde recriei o layout do Youtube utilizando **Vite**, **React**, **TailwindCSS** e **Lucide Icons**. O objetivo foi aprimoras minhas habilidade desde o ultimo mini projeto que criei e ampliar conhecimento e afinidade.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tecnologias Utilizadas
 
-Currently, two official plugins are available:
+- **Vite**: Ferramenta para construir e rodar projetos React de forma rápida e otimizada.
+- **React**: Biblioteca JavaScript para criar interfaces de usuário.
+- **TailwindCSS**: Framework CSS utilitário para facilitar o desenvolvimento de layouts responsivos e customizados.
+- **Lucide Icons**: Conjunto de ícones para usar em componentes interativos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demonstração
 
-## Expanding the ESLint configuration
+Aqui estão as duas imagens comparando o layout original do Youtube e a versão recriada:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Layout Original
 
-- Configure the top-level `parserOptions` property like this:
+![base](https://github.com/user-attachments/assets/887ff1a6-569d-47e2-912c-358db4fbf995)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Layout Recriado
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+![image](https://github.com/user-attachments/assets/de5706a2-3cf6-489c-8f19-5eddb8df13de)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Como Rodar o Projeto
+
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/arthuracmm/youtube-layout
+    ```
+
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd youtube-layout
+    ```
+
+3. Instale as dependências:
+    ```bash
+    npm install
+    ```
+
+4. Rode o servidor de desenvolvimento:
+    ```bash
+    npm run dev
+    ```
+
+5. Acesse o projeto no seu navegador em [http://localhost:5173](http://localhost:5173).
+
+## Conclusão
+
+Esse projeto foi uma ótima oportunidade para aprofundar meu conhecimento sobre as tecnologias mencionadas e praticar a criação de interfaces responsivas e funcionais.
